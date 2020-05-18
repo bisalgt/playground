@@ -1,0 +1,4 @@
+async and defer used to load the content of js using separate thread and meantime html is also downloading.
+async doesnot execute scripts in order but defer do. 
+aysnc and defer are modern approach.
+Previously we used to load script just before the closing body tag.
