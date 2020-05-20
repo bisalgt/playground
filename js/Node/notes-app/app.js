@@ -54,8 +54,31 @@
 // const fs = require('fs')
 
 
-const notesjs = require('./notes.js');
+// const validator = require('validator')
 
-fd = notesjs.getNotes()
+// const notesjs = require('./notes.js');
 
-console.log(fd)
+// fd = notesjs.getNotes()
+
+// console.log(fd)
+
+// console.log(validator.isEmail('bisalggmail.com'))
+// console.log(validator.isURL('google.com'))
+
+
+
+const chalk = require('chalk')
+
+const msg = "this is the message"
+
+console.log(chalk.bgGreen('Success'))
+
+const error = chalk.bold.red
+const warning = chalk.bold.yellow
+const success = chalk.bold.green
+
+console.log(error('this is error'))
+console.log(warning('this is warning'))
+console.log(success('this is success'))
+console.log(chalk.rgb(122,122,122)('this is grey i think'))
+console.log(chalk.italic('this is itallic'))
