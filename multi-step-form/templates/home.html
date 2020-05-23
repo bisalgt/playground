@@ -1,0 +1,62 @@
+{% load crispy_forms_tags %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Django forms</title>
+    
+  </head>
+  <body>
+    
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <p {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>{{ message }}</p>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    
+    <div class='container row'>
+        <div class = 'col-2'></div>
+        <div class='col-8 text-center' style="padding: 50px;">
+            
+            <h1 style="margin-bottom: 20px;">Book Partial Form</h1>
+            <form method="POST">
+                {% csrf_token %}
+                {{form | crispy }}
+                <button class='btn btn-success btn-md' type="submit">Submit</button>
+            </form>
+        
+        </div>
+        <div class = 'col-2'></div>
+
+    </div>
+    <div class = 'container'>
+        {% if books %}
+        <div class='row'>
+            {% for book in books %}
+            <div class="card text-white bg-info mb-3 col-3 m-3" style="max-width: 18rem;">
+                <div class="card-header">{{book.title}}</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{book.category}}</h5>
+                  <p class="card-text">{{book.description}}</p>
+                </div>
+              </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
