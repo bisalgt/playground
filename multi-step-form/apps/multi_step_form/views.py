@@ -50,7 +50,7 @@ def home(request):
                 category = form.cleaned_data.get('category')
                 request.session['category'] = category
                 form_next = form_finder(request)
-                return render(request, 'home.html', {'form': form_next})
+                return render(request, 'home.html', {'form': form_next, 'last': 'last'})
             return render(request, 'home.html', {'form': form})
         elif 'sub_category' in request.POST:
             print('inside sub categoryyy')
@@ -73,3 +73,9 @@ def home(request):
             return render(request, 'home.html', {'form': form})
 
         
+
+
+def implementing_ajax(request):
+    print('implenting ajax called')
+    form = forms.BookTitleForm()
+    return render(request, 'nonrefresher.html', {'form': form})
