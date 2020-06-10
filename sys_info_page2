@@ -1,0 +1,11 @@
+#! /bin/bash
+title="System Information Page"
+echo "<html>
+	<head>
+		<title>$title</title>
+	</head>
+	<body>
+		$title
+		$PATH
+	</body>
+</html>"
