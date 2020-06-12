@@ -1,5 +1,7 @@
 #! /bin/bash
 title="System Information Page"
+variable="$(ls -ll)"
+declare -r TITLE="Read ONLY title"
 echo "<html>
 	<head>
 		<title>$title</title>
@@ -7,5 +9,7 @@ echo "<html>
 	<body>
 		$title
 		$PATH
+		<h1>$TITLE</h1>
+		<p>$variable</p>
 	</body>
 </html>"
