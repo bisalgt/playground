@@ -1,0 +1,216 @@
+Script started on 2020-06-20 12:25:16+05:45 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="166" LINES="43"]
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ clear
+[H[2J[3J]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ clear[1Pexitjupyter notebook[2Pconda activatelear[Kgit statuscd Playground/[4Pgit status[5Pclearonda activatejupyter notebookexit[Kclear[Kpython -m unittest [K
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1.[K
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1 -V
+usage: python3 -m unittest [-h] [-v] [-q] [--locals] [-f] [-c] [-b] [-k TESTNAMEPATTERNS] [tests [tests ...]]
+python3 -m unittest: error: unrecognized arguments: -V
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1 -V[Kv
+test_isupper (test1.TestStringMethods) ... ok
+test_split (test1.TestStringMethods) ... ok
+test_upper (test1.TestStringMethods) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1.TE[KestStringMethods
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest [K test1.TestStringe[KMethi[Kods.test_split
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ clear
+[H[2J[3J]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ clearpython -m unittest test1.TestStringMethods.test_split --local
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1.TestStringMethods.test_split --local[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpython -m unittest test1.TestStringMethods.test_split --local
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m unittest test1.TestStringMethods.test_split --locals
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ vi chekc[K[Kck_setup_test.py
+[?1000h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;43r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[43;1H"check_setup_test.py" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                                     [3;1H~                                                                                                                                                                     [4;1H~                                                                                                                                                                     [5;1H~                                                                                                                                                                     [6;1H~                                                                                                                                                                     [7;1H~                                                                                                                                                                     [8;1H~                                                                                                                                                                     [9;1H~                                                                                                                                                                     [10;1H~                                                                                                                                                                     [11;1H~                                                                                                                                                                     [12;1H~                                                                                                                                                                     [13;1H~                                                                                                                                                                     [14;1H~                                                                                                                                                                     [15;1H~                                                                                                                                                                     [16;1H~                                                                                                                                                                     [17;1H~                                                                                                                                                                     [18;1H~                                                                                                                                                                     [19;1H~                                                                                                                                                                     [20;1H~                                                                                                                                                                     [21;1H~                                                                                                                                                                     [22;1H~                                                                                                                                                                     [23;1H~                                                                                                                                                                     [24;1H~                                                                                                                                                                     [25;1H~                                                                                                                                                                     [26;1H~                                                                                                                                                                     [27;1H~                                                                                                                                                                     [28;1H~                                                                                                                                                                     [29;1H~                                                                                                                                                                     [30;1H~                                                                                                                                                                     [31;1H~                                                                                                                                                                     [32;1H~                                                                                                                                                                     [33;1H~                                                                                                                                                                     [34;1H~                                                                                                                                                                     [35;1H~                                                                                                                                                                     [36;1H~                                                                                                                                                                     [37;1H~                                                                                                                                                                     [38;1H~                                                                                                                                                                     [39;1H~                                                                                                                                                                     [40;1H~                                                                                                                                                                     [41;1H~                                                                                                                                                                     [42;1H~                                                                                                                                                                     [m[43;149H0,0-1[9CAll[1;1H[?25h[?1000l[?1002h[?25l[43;1H[1m-- INSERT --[m[43;13H[K[43;149H0,1[11CAll[1;1H[38;5;81mimport[m unittest[2;1H[K[3;1H[93mclass[m [1m[96mCheckStringMethods[m(unittest.TestCas[3;42H[K[3;42H[?25h[?25le):
+    [4;5H[K[5;1H    [93mdef[m [1m[96msetUp[m(self):[5;21H[K[6;1H        [1m[96mprint[m([95m'Iniside test fixtur[m[6;35H[K[6;35H[?25h[?25l[95me: setup'[m)
+        self.title = [95m'this is the title'[m[7;41H[K[8;1H    [8;5H[K[9;1H    de[9;7H[K[9;7H[?25h[?25l[93mdef[m [1m[96mtest_lower[m(self):
+        [1m[96mprint[m([95m'Iniside test case: test_lowe[m[10;44H[K[10;44H[?25h[?25l[95mr'[m)
+        self.assertEqual(self.title.lower(), [95m'this is the t[m[11;60H[K[11;60H[?25h[?25l[95mitle'[m)
+    [12;5H[K[13;1H    [93mdef[m [1m[96mtest_upper[m(self):[13;26H[K[14;1H        [1m[96mprint[m([95m'Inside tes[m[14;26H[K[14;26H[?25h[?25l[95mt case: test upper'[m)
+        self.assertEqual(self.title.upper([15;43H[K[15;43H[?25h[?25l), [95m'THIS IS THE TITLE'[m)
+    [16;5H[K[17;1H    [93mdef[m [1m[96mtearDown[m(self):[17;24H[K[18;1H        pr[18;11H[K[18;11H[?25h[?25l[1m[96mprint[m([95m'Inside test fixutre: tearDown'[m)
+        [93mdel[m self.title[19;23H[K[20;1H[K[20;1H[?25h[?25l[43;1H[K[43;149H20,0-1[8CAll[20;1H[?25h[?25l[43;139H^[[20;1H[43;139H  [20;1H[43;139H^[[20;1H[43;139H  [20;1H[?25h[?25l[43;139H:[20;1H[43;139H[K[43;1H:[?2004h[?25hwq[?25l[43;3H[K[43;3H[?25h[?25l[43;2H[K[43;2H[?25h [?25l[20;1H[43;149H20,0-1[8CAll[20;1H[?25h[?25l[43;139H~@k[20;1H[43;139H   [19;22H[43;149H19,22 [19;22H[?25h[?25l[43;139H~@k[19;22H[43;139H   [19;22H[?25h[?25l[43;139Hi[19;22H[43;139H [19;22H[43;1H[1m-- INSERT --[m[43;149H[K[43;149H19,22[9CAll[19;22H[?25h[?25l[43;153H3[19;23H[?25h[?25l[20;42r[20;1H[L[1;43r[43;149H[K[43;149H20,9[10CAll[20;9H[?25h[?25l[21;42r[21;1H[L[1;43r[43;149H[K[43;149H21,9[10CAll[21;9H[?25h[?25l[43;152H5[21;5H[?25h[?25l[43;152H1[21;1H[?25h[?25li[43;152H2[21;2H[?25h[?25l[93mif[m[43;152H3[21;3H[?25h[?25l[43;152H4[21;4H[?25h[?25l_[43;152H5[21;5H[?25h[?25l_[43;152H6[21;6H[?25h[?25ln[43;152H7[21;7H[?25h[?25la[43;152H8[21;8H[?25h[?25lm[43;152H9[21;9H[?25h[?25le[43;152H10[21;10H[?25h[?25l+[43;153H1[21;11H[?25h[?25l+[43;153H2[21;12H[?25h[?25l[43;153H3[21;13H[?25h[?25l=[43;153H4[21;14H[?25h[?25l=[43;153H5[21;15H[?25h[?25l[43;153H6[21;16H[?25h[?25l[43;153H5[21;15H[?25h[?25l[21;14H[K[43;153H4[21;14H[?25h[?25l[21;13H[K[43;153H3[21;13H[?25h[?25l[43;153H2[21;12H[?25h[?25l[21;11H[K[43;153H1[21;11H[?25h[?25l[21;10H[K[43;153H0[21;10H[?25h[?25l+[43;153H1[21;11H[?25h[?25l+[43;153H2[21;12H[?25h[?25l[43;153H3[21;13H[?25h[?25l[43;153H2[21;12H[?25h[?25l[21;11H[K[43;153H1[21;11H[?25h[?25l[21;10H[K[43;153H0[21;10H[?25h[?25l_[43;153H1[21;11H[?25h[?25l_[43;153H2[21;12H[?25h[?25l[43;153H3[21;13H[?25h[?25l=[43;153H4[21;14H[?25h[?25l=[43;153H5[21;15H[?25h[?25l[43;153H6[21;16H[?25h[?25l[95m'[m[43;153H7[21;17H[?25h[?25l[95m'[m[43;153H8[21;18H[?25h[?25l[43;153H7[21;17H[?25h[?25l[95m_'[m[43;153H8[21;18H[?25h[?25l[95m_'[m[43;153H9[21;19H[?25h[?25l[95mm'[m[43;152H20[21;20H[?25h[?25l[95ma'[m[43;153H1[21;21H[?25h[?25l[95mi'[m[43;153H2[21;22H[?25h[?25l[95mn'[m[43;153H3[21;23H[?25h[?25l[95m_'[m[43;153H4[21;24H[?25h[?25l[95m_'[m[43;153H5[21;25H[?25h[?25l[43;153H6[21;26H[?25h[?25l:[43;153H7[21;27H[?25h[?25l[22;42r[22;1H[L[1;43r[43;149H[K[43;149H22,5[10CAll[22;5H[?25h[?25lu[43;152H6[22;6H[?25h[?25ln[43;152H7[22;7H[?25h[?25li[43;152H8[22;8H[?25h[?25lt[43;152H9[22;9H[?25h[?25lt[43;152H10[22;10H[?25h[?25le[43;153H1[22;11H[?25h[?25ls[43;153H2[22;12H[?25h[?25lt[43;153H3[22;13H[?25h[?25l.[43;153H4[22;14H[?25h[?25lm[43;153H5[22;15H[?25h[?25la[43;153H6[22;16H[?25h[?25li[43;153H7[22;17H[?25h[?25ln[43;153H8[22;18H[?25h[?25l([43;153H9[22;19H[?25h[?25l)[46m()[m[43;152H20[22;20H[?25h[43;1H[K[22;19H[?25l[43;139H^[[22;19H[43;139H  [22;20H[43;149H22,19[9CAll[22;19H[?25h[?25l[43;139H:[22;19H[43;139H[K[43;1H:[?2004h[?25hwq[?25l[?1002l[?2004l"check_setup_test.py" [New] 23L, 609C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m ch
+chardet  chunk    
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m ch
+chardet  chunk    
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m check_setup_test.p[K[K
+Iniside test fixture: setup
+Iniside test case: test_lower
+Inside test fixutre: tearDown
+.Iniside test fixture: setup
+Inside test case: test upper
+Inside test fixutre: tearDown
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m check_setup_test[4Pvi check_setup_test.py
+[?1000h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;43r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[43;1H"check_setup_test.py" 23L, 609C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;81mimport[m unittest
+
+[93mclass[m [1m[96mCheckStringMethods[m(unittest.TestCase):[5;5H[93mdef[m [1m[96msetUp[m(self):[6;9H[1m[96mprint[m([95m'Iniside test fixture: setup'[m)[7;9Hself.title = [95m'this is the title'[m[9;5H[93mdef[m [1m[96mtest_lower[m(self):[10;9H[1m[96mprint[m([95m'Iniside test case: test_lower'[m)[11;9Hself.assertEqual(self.title.lower(), [95m'this is the title'[m)[13;5H[93mdef[m [1m[96mtest_upper[m(self):[14;9H[1m[96mprint[m([95m'Inside test case: test upper'[m)[15;9Hself.assertEqual(self.title.upper(), [95m'THIS IS THE TITLE'[m)[17;5H[93mdef[m [1m[96mtearDown[m(self):[18;9H[1m[96mprint[m([95m'Inside test fixutre: tearDown'[m)[19;9H[93mdel[m self.title
+
+[93mif[m __name__ == [95m'__main__'[m:
+    unittest.main[46m()[m
+
+[94m~                                                                                                                                                                     [25;1H~                                                                                                                                                                     [26;1H~                                                                                                                                                                     [27;1H~                                                                                                                                                                     [28;1H~                                                                                                                                                                     [29;1H~                                                                                                                                                                     [30;1H~                                                                                                                                                                     [31;1H~                                                                                                                                                                     [32;1H~                                                                                                                                                                     [33;1H~                                                                                                                                                                     [34;1H~                                                                                                                                                                     [35;1H~                                                                                                                                                                     [36;1H~                                                                                                                                                                     [37;1H~                                                                                                                                                                     [38;1H~                                                                                                                                                                     [39;1H~                                                                                                                                                                     [40;1H~                                                                                                                                                                     [41;1H~                                                                                                                                                                     [42;1H~                                                                                                                                                                     [m[43;149H22,19[9CAll[22;19H[?25h[?1000l[?1002h[?25l[43;139Hi[22;19H[43;139H [22;19H[43;1H[1m-- INSERT --[m[43;13H[K[43;149H22,19[9CAll[22;19H[?25h[?25l()[43;150H1[21;19H[?25h[?25l[43;150H0,1 [20;1H[?25h[?25l[43;149H19,19[19;19H[?25h[?25l[43;152H20[19;20H[?25h[?25l[43;153H1[19;21H[?25h[?25l[43;150H8[18;21H[?25h[?25l[43;150H7[17;21H[?25h[?25l[43;150H6,5 [16;5H[?25h[?25l[43;150H5,21[15;21H[?25h[?25l[43;150H6,5 [16;5H[?25h[?25li[43;152H6[16;6H[?25h[?25l[16;5H[K[43;152H5[16;5H[?25h[?25l[17;42r[17;1H[L[1;43r[43;149H[K[43;149H17,5[10CAll[17;5H[?25h[?25l[18;42r[18;1H[L[1;43r[43;149H[K[43;149H18,5[10CAll[18;5H[?25h[?25l[43;150H7,1[17;1H[?25h[?25l[43;150H6,5[16;5H[?25h[?25ld[43;152H6[16;6H[?25h[?25l[16;5H[K[43;152H5[16;5H[?25h[?25l[17;42r[17;1H[L[1;43r[43;149H[K[43;149H17,5[10CAll[17;5H[?25h[?25ld[43;152H6[17;6H[?25h[?25le[43;152H7[17;7H[?25h[?25l[93mdef[m[43;152H8[17;8H[?25h[?25l[43;152H9[17;9H[?25h[?25l[1m[96mt[m[43;152H10[17;10H[?25h[?25l[1m[96me[m[43;153H1[17;11H[?25h[?25l[1m[96ms[m[43;153H2[17;12H[?25h[?25l[1m[96mt[m[43;153H3[17;13H[?25h[?25l[1m[96m_[m[43;153H4[17;14H[?25h[?25l[1m[96mt[m[43;153H5[17;15H[?25h[?25l[1m[96mi[m[43;153H6[17;16H[?25h[?25l[1m[96mt[m[43;153H7[17;17H[?25h[?25l[1m[96me[m[43;153H8[17;18H[?25h[?25l[17;17H[K[43;153H7[17;17H[?25h[?25l[1m[96ml[m[43;153H8[17;18H[?25h[?25l[1m[96me[m[43;153H9[17;19H[?25h[?25l([43;152H20[17;20H[?25h[?25ls[43;153H1[17;21H[?25h[?25ll[43;153H2[17;22H[?25h[?25le[43;153H3[17;23H[?25h[?25lf[43;153H4[17;24H[?25h[?25l[17;23H[K[43;153H3[17;23H[?25h[?25l[17;22H[K[43;153H2[17;22H[?25h[?25l[17;21H[K[43;153H1[17;21H[?25h[?25le[43;153H2[17;22H[?25h[?25ll[43;153H3[17;23H[?25h[?25lf[43;153H4[17;24H[?25h[?25l)[46m([mself[46m)[m[43;153H5[17;25H[?25h[?25l:[17;19H(self)[43;153H6[17;26H[?25h[?25l[18;42r[18;1H[L[1;43r[43;149H[K[43;149H18,9[10CAll[18;9H[?25h[?25lp[43;152H10[18;10H[?25h[?25lr[43;153H1[18;11H[?25h[?25li[43;153H2[18;12H[?25h[?25ln[43;153H3[18;13H[?25h[?25l[1m[96mprint[m[43;153H4[18;14H[?25h[?25l([43;153H5[18;15H[?25h[?25l[95m'
+
+
+    def tearDown(self):
+        print([m[1CInside test fixutre: tearDown[1C[95m)
+        del self.title
+
+if __name__ == [m[1C__main__[1C[95m:
+    unittest.main()[m[43;153H6[18;16H[?25h[?25l[95mI[m[43;153H7[18;17H[?25h[?25l[95mn[m[43;153H8[18;18H[?25h[?25l[95ms[m[43;153H9[18;19H[?25h[?25l[95mi[m[43;152H20[18;20H[?25h[?25l[95md[m[43;153H1[18;21H[?25h[?25l[95me[m[43;153H2[18;22H[?25h[?25l[95m [m[43;153H3[18;23H[?25h[?25l[95mt[m[43;153H4[18;24H[?25h[?25l[95me[m[43;153H5[18;25H[?25h[?25l[95mt[m[43;153H6[18;26H[?25h[?25l[18;25H[K[43;153H5[18;25H[?25h[?25l[95ms[m[43;153H6[18;26H[?25h[?25l[95mt[m[43;153H7[18;27H[?25h[?25l[95m [m[43;153H8[18;28H[?25h[?25l[95mc[m[43;153H9[18;29H[?25h[?25l[95ma[m[43;152H30[18;30H[?25h[?25l[95ms[m[43;153H1[18;31H[?25h[?25l[95me[m[43;153H2[18;32H[?25h[?25l[95m:[m[43;153H3[18;33H[?25h[?25l[95m [m[43;153H4[18;34H[?25h[?25l[95mt[m[43;153H5[18;35H[?25h[?25l[95me[m[43;153H6[18;36H[?25h[?25l[95ms[m[43;153H7[18;37H[?25h[?25l[95mt[m[43;153H8[18;38H[?25h[?25l[95m [m[43;153H9[18;39H[?25h[?25l[95mt[m[43;152H40[18;40H[?25h[?25l[95mi[m[43;153H1[18;41H[?25h[?25l[95mt[m[43;153H2[18;42H[?25h[?25l[95ml[m[43;153H3[18;43H[?25h[?25l[95me[m[43;153H4[18;44H[?25h[?25l[95m'[m
+
+
+    [93mdef[m [1m[96mtearDown[m(self):
+        [1m[96mprint[m([1C[95mInside test fixutre: tearDown[m[1C)
+        [93mdel[m self.title
+
+[93mif[m __name__ == [1C[95m__main__[m[1C:
+    unittest.main()[43;153H5[18;45H[?25h[?25l)[18;14H[46m([30C)[m[43;153H6[18;46H[?25h[?25l[19;42r[19;1H[L[1;43r[43;149H[K[43;149H19,9[10CAll[18;14H([30C)[19;9H[?25h[?25ls[43;152H10[19;10H[?25h[?25le[43;153H1[19;11H[?25h[?25ll[43;153H2[19;12H[?25h[?25lf[43;153H3[19;13H[?25h[?25l.[43;153H4[19;14H[?25h[?25la[43;153H5[19;15H[?25h[?25l[93mas[m[43;153H6[19;16H[?25h[?25lass[43;153H7[19;17H[?25h[?25le[43;153H8[19;18H[?25h[?25lr[43;153H9[19;19H[?25h[?25l[93massert[m[43;152H20[19;20H[?25h[?25lassertE[43;153H1[19;21H[?25h[?25ls[43;153H2[19;22H[?25h[?25l[19;21H[K[43;153H1[19;21H[?25h[?25lq[43;153H2[19;22H[?25h[?25lu[43;153H3[19;23H[?25h[?25la[43;153H4[19;24H[?25h[?25ll[43;153H5[19;25H[?25h[?25l([43;153H6[19;26H[?25h[?25ls[43;153H7[19;27H[?25h[?25le[43;153H8[19;28H[?25h[?25ll[43;153H9[19;29H[?25h[?25lf[43;152H30[19;30H[?25h[?25l.[43;153H1[19;31H[?25h[?25lt[43;153H2[19;32H[?25h[?25li[43;153H3[19;33H[?25h[?25lt[43;153H4[19;34H[?25h[?25ll[43;153H5[19;35H[?25h[?25le[43;153H6[19;36H[?25h[?25l.[43;153H7[19;37H[?25h[?25lt[43;153H8[19;38H[?25h[?25li[43;153H9[19;39H[?25h[?25lt[43;152H40[19;40H[?25h[?25ll[43;153H1[19;41H[?25h[?25le[43;153H2[19;42H[?25h[?25l([43;153H3[19;43H[?25h[?25l)[46m()[m[43;153H4[19;44H[?25h[?25l,()[43;153H5[19;45H[?25h[?25l[43;153H6[19;46H[?25h[?25l[95m'
+
+
+    def tearDown(self):
+        print([m[1CInside test fixutre: tearDown[1C[95m)
+        del self.title
+
+if __name__ == [m[1C__main__[1C[95m:
+    unittest.main()[m[43;153H7[19;47H[?25h[?25l[95mT[m[43;153H8[19;48H[?25h[?25l[95mH[m[43;153H9[19;49H[?25h[?25l[95mi[m[43;152H50[19;50H[?25h[?25l[95ms[m[43;153H1[19;51H[?25h[?25l[95m [m[43;153H2[19;52H[?25h[?25l[95mi[m[43;153H3[19;53H[?25h[?25l[95ms[m[43;153H4[19;54H[?25h[?25l[95m [m[43;153H5[19;55H[?25h[?25l[95mt[m[43;153H6[19;56H[?25h[?25l[95mi[m[43;153H7[19;57H[?25h[?25l[95mt[m[43;153H8[19;58H[?25h[?25l[19;57H[K[43;153H7[19;57H[?25h[?25l[19;56H[K[43;153H6[19;56H[?25h[?25l[19;55H[K[43;153H5[19;55H[?25h[?25l[95mt[m[43;153H6[19;56H[?25h[?25l[95mh[m[43;153H7[19;57H[?25h[?25l[95me[m[43;153H8[19;58H[?25h[?25l[95m [m[43;153H9[19;59H[?25h[?25l[95mt[m[43;152H60[19;60H[?25h[?25l[95mi[m[43;153H1[19;61H[?25h[?25l[95mt[m[43;153H2[19;62H[?25h[?25l[95ml[m[43;153H3[19;63H[?25h[?25l[95me[m[43;153H4[19;64H[?25h[?25l[95m'[m
+
+
+    [93mdef[m [1m[96mtearDown[m(self):
+        [1m[96mprint[m([1C[95mInside test fixutre: tearDown[m[1C)
+        [93mdel[m self.title
+
+[93mif[m __name__ == [1C[95m__main__[m[1C:
+    unittest.main()[43;153H5[19;65H[?25h[?25l)[19;25H[46m([39C)[m[43;153H6[19;66H[?25h[43;1H[K[19;65H[?25l[43;139H^[[19;65H[43;139H  [19;66H[43;149H19,65[9CAll[19;65H[?25h[?25l[43;139H:[19;65H[43;139H[K[43;1H:[?2004h[?25hwq[?25l[?1002l[?2004l"check_setup_test.py" 28L, 749C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ vi check_setup_test.pypython -m check_setup_test -v
+test_lower (__main__.CheckStringMethods) ... Iniside test fixture: setup
+Iniside test case: test_lower
+Inside test fixutre: tearDown
+ok
+test_title (__main__.CheckStringMethods) ... Iniside test fixture: setup
+Inside test case: test title
+Inside test fixutre: tearDown
+FAIL
+test_upper (__main__.CheckStringMethods) ... Iniside test fixture: setup
+Inside test case: test upper
+Inside test fixutre: tearDown
+ok
+
+======================================================================
+FAIL: test_title (__main__.CheckStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bishal/Playground/tests/check_setup_test.py", line 19, in test_title
+    self.assertEqual(self.title.title(), 'THis is the title')
+AssertionError: 'This Is The Title' != 'THis is the title'
+- This Is The Title
+?  ^   ^  ^   ^
++ THis is the title
+?  ^   ^  ^   ^
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m check_setup_test -v[K[K[K
+Iniside test fixture: setup
+Iniside test case: test_lower
+Inside test fixutre: tearDown
+.Iniside test fixture: setup
+Inside test case: test title
+Inside test fixutre: tearDown
+FIniside test fixture: setup
+Inside test case: test upper
+Inside test fixutre: tearDown
+.
+======================================================================
+FAIL: test_title (__main__.CheckStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bishal/Playground/tests/check_setup_test.py", line 19, in test_title
+    self.assertEqual(self.title.title(), 'THis is the title')
+AssertionError: 'This Is The Title' != 'THis is the title'
+- This Is The Title
+?  ^   ^  ^   ^
++ THis is the title
+?  ^   ^  ^   ^
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ python -m check_setup_test
+Iniside test fixture: setup
+Iniside test case: test_lower
+Inside test fixutre: tearDown
+.Iniside test fixture: setup
+Inside test case: test title
+Inside test fixutre: tearDown
+FIniside test fixture: setup
+Inside test case: test upper
+Inside test fixutre: tearDown
+.
+======================================================================
+FAIL: test_title (__main__.CheckStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bishal/Playground/tests/check_setup_test.py", line 19, in test_title
+    self.assertEqual(self.title.title(), 'THis is the title')
+AssertionError: 'This Is The Title' != 'THis is the title'
+- This Is The Title
+?  ^   ^  ^   ^
++ THis is the title
+?  ^   ^  ^   ^
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ clear
+[H[2J[3J]0;bishal@kali: ~/Playground/tests[01;31mbishal@kali[00m:[01;34m~/Playground/tests[00m$ exit
+exit
+
+Script done on 2020-06-20 12:56:09+05:45 [COMMAND_EXIT_CODE="0"]
