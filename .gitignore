@@ -5,3 +5,6 @@ multi-step-form/env
 node_modules
 images/
 processed/
+*.png
+*.jpeg
+.DS_Store
