@@ -8,3 +8,4 @@ processed/
 *.png
 *.jpeg
 .DS_Store
+virtualenv/
