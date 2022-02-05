@@ -9,3 +9,4 @@ processed/
 *.jpeg
 .DS_Store
 virtualenv/
+htm.core/
