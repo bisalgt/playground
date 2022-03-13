@@ -10,3 +10,5 @@ processed/
 .DS_Store
 virtualenv/
 htm.core/
+venv/
+env/
