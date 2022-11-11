@@ -3,8 +3,8 @@ version: "3.3"
 services:
   db:
     build: 
-      context: ./docker/mysql
-      dockerfile: ./Dockerfile
+      context: .
+      dockerfile: ./docker/mysql/Dockerfile
     container_name: mysql-container
     command: --default-authentication-plugin=mysql_native_password
     volumes:
@@ -15,6 +15,17 @@ services:
       - 3306:3306
     networks:
       - database_network
+  
+  fastapi-backend:
+    build:
+      context: .
+      dockerfile: ./docker/fastapi_backend/Dockerfile
+    container_name: fastapi-backend-container
+    restart: always
+    ports:
+      - 8000:8000
+    networks:
+      - backend_network
 
 volumes:
   mysql_server_data:
@@ -22,4 +33,7 @@ volumes:
 networks:
   database_network:
     name: mysql_network
+    driver: bridge
+  backend_network:
+    name: backend_network
     driver: bridge
