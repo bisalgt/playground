@@ -3,7 +3,7 @@ version: "3.3"
 services:
   db:
     build: 
-      context: ./mysql
+      context: ./docker/mysql
       dockerfile: ./Dockerfile
     container_name: mysql-container
     command: --default-authentication-plugin=mysql_native_password
