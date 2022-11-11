@@ -1,0 +1,25 @@
+version: "3.3"
+
+services:
+  db:
+    build: 
+      context: ./mysql
+      dockerfile: ./Dockerfile
+    container_name: mysql-container
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - mysql_server_data:/var/lib/mysql
+    restart: always
+    env_file: ./env_files/.env_mysql
+    ports:
+      - 3306:3306
+    networks:
+      - database_network
+
+volumes:
+  mysql_server_data:
+
+networks:
+  database_network:
+    name: mysql_network
+    driver: bridge
