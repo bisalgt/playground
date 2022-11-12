@@ -24,8 +24,11 @@ services:
     restart: always
     ports:
       - 8000:8000
+    depends_on:
+      - db
     networks:
       - backend_network
+      - database_network
 
 volumes:
   mysql_server_data:
