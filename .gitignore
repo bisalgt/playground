@@ -15,3 +15,8 @@ env/
 learn-347411-7cae9f54081a.json
 
 CNN/~/tensorflow_datasets/
+
+
+# experimental data -- large size
+*.txt
+*.csv
