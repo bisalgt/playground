@@ -19,7 +19,7 @@ CNN/~/tensorflow_datasets/
 
 # experimental data -- large size
 *.txt
-*.csv
+# *.csv
 
 # images
 *.tif
