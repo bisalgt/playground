@@ -6,7 +6,7 @@ int main() {
     pcl::visualization::PCLVisualizer::Ptr viewer(new pcl::visualization::PCLVisualizer("Point Cloud Viewer"));
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
-    pcl::io::loadPCDFile<pcl::PointXYZ>("../../kitti.pcd", *cloud);
+    pcl::io::loadPCDFile<pcl::PointXYZ>("../../kitti_with_surf_var_as_intensity.pcd", *cloud);
 
     viewer->addPointCloud(cloud, "cloud");
     viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 1, "cloud");
